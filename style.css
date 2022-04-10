@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    direction: ltr;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #515151;
+    background: #fff;
+}
+li{
+    list-style: none;
+}
+.todo{
+    width: 800px;
+    height: 400px;
+    background-color: pink;
+    box-shadow: 0 1px 5px 2px;
+    margin: 10px auto;
+    position: relative;
+    top: 25%;
+    transform: translate(10px,50px);
+}
+.todo ul{
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.select{
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+.todo h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.todo button{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.todo input{
+    width: 70%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    margin:10px
+}
