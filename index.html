@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
 <header>
-    <div id="app">
-        <div class="todo">
-           <h4 class="text-center font-weight-bold text-dark">تو دو لیست اولین درس</h4>
-            <div class="select">
-            <input type="text" name="text" id="myText" class="form-control" placeholder="تایپ کنید" v-model.trim="input">
-            <button type="button" @click="add">افزودن به تودو لیست</button>
-            </div>
-            <ul>
-                <li style="margin-right: 10px" v-for="(item,index) of todos" :key="item"> {{index}} :{{item}}<button type="button" @click="deletebtn">&times;</button></li>
-            </ul>
-        </div>
+<div class="hafez">
+   <h1>سخنان انگیزشی بازیگر معروف مستربین</h1>
+    <p>4 روش بدست اوردن سخنان با استفاده از ای پی آی</p>
+    <div class="main-btn">
+        <button type="button" id="xml">XML</button>
+        <button type="button" id="fetch">Fetch</button>
+        <button type="button" id="jquery">jQuery</button>
+        <button type="button" id="axios">Axios</button>
     </div>
+    <p id="text" class="text">نمونه سخنان در این قسمت درج می شود</p>
+</div>
 </header>
 
+<script src="script.js"></script>
 
-
-<script src="https://unpkg.com/vue@3"></script>
-<script src="js/vue.global.js"></script>
-<script src="app.js"></script>
 </body>
 </html>

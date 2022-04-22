@@ -11,45 +11,40 @@ body{
     color: #515151;
     background: #fff;
 }
-li{
-    list-style: none;
-}
-.todo{
-    width: 800px;
-    height: 400px;
-    background-color: pink;
-    box-shadow: 0 1px 5px 2px;
-    margin: 10px auto;
+.hafez{
+    width: 1300px;
+    height: 500px;
+    background:linear-gradient(to top,#eb34e5 ,#2f91b5);
     position: relative;
-    top: 25%;
-    transform: translate(10px,50px);
-}
-.todo ul{
-    align-items: center;
-    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px rgb(0,0,0.5);
+    margin: 10px auto;
     padding: 10px;
 }
-.select{
-    align-items: center;
-    justify-content: center;
-    margin:15px;
+.hafez h1 , .hafez p{
+    text-align: center;
+    color: white;
 }
-.todo h4{
+.main-btn{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
+    margin-top: 20px;
 }
-.todo button{
-    padding: 10px;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-}
-.todo input{
-    width: 70%;
-    border:none;
+.main-btn button{
     outline: none;
-    padding: 10px;
-    margin:10px
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.hafez .text{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
 }
